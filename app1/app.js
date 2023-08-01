@@ -29,5 +29,6 @@ function cadastrarDespesa() {
 }
 
 function gravar(d){
+    
     localStorage.setItem('despesa', JSON.stringify(d))
 }
